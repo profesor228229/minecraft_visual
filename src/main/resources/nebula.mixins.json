@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.nebula.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "KeyboardMixin",
+    "MouseMixin",
+    "GameRendererMixin",
+    "GameRendererAccessor",
+    "InGameHudMixin",
+    "BossBarHudMixin",
+    "WorldRendererMixin",
+    "HeldItemRendererMixin",
+    "LivingEntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "InGameOverlayRendererMixin"
+  ],
+  "injectors": { "defaultRequire": 0 }
+}
