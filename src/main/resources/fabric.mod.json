@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "nebula",
+  "version": "${version}",
+  "name": "Nebula Visuals",
+  "description": "Smooth and beautiful visual client for Minecraft 1.16.5",
+  "authors": ["profesor228229"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.nebula.Nebula"] },
+  "mixins": ["nebula.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
